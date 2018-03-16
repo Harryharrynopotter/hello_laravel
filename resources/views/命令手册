@@ -1,0 +1,14 @@
+vagrant init					初始化 vagrant
+vagrant up						启动 vagrant
+vagrant halt					关闭 vagrant
+vagrant ssh	   					通过 SSH 登录 vagrant（需要先启动 vagrant）
+vagrant provision				重新应用更改 vagrant 配置
+vagrant destroy					删除 vagrant
+
+$ exit							退出虚拟机
+vagrant halt					关闭 Homestead
+
+
+1、保存到暂存区：							$ git add -A
+2、输入描述信息并提交到本地的 GitHub：		$ git commit -m "Say something"
+3、将代码推送到 GitHub：					$ git push
